@@ -1,0 +1,30 @@
+.checkout{
+    background: #fde4e4;
+    padding: 30px;
+}
+
+.total{
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.checkout h6{
+    font-weight: 600;
+    color: #212245;
+}
+
+.total h5{
+    font-size: 1.5rem;
+    color: #212245;
+}
+
+.total h5 span{
+    color: #df2020;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    /* .total h5{
+        font-size: .9rem;
+    }   */
+}

@@ -1,0 +1,32 @@
+th{
+    text-align: center;
+}
+
+.cart__img-box{
+    width: 80px;
+}
+
+.cart__img-box img{
+    width: 100%;
+}   
+
+.del__item{
+    cursor: pointer;
+}
+
+.sub-det{
+    font-size: 1.3rem;
+    color: #212245b2;
+    font-weight: 600;
+
+}
+
+.subtotal{
+    font-size: 2rem;
+    color: #df2020;
+    font-weight: 600;
+}
+
+.cart__page button a:hover{
+    color: #fff;
+}
