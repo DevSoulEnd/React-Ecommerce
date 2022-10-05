@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col, ListGroup, ListGroupItem} from 'reactstrap'
-import {FiSend} from 'react-icons/fi'
+import {FaPaperPlane} from 'react-icons/fa'
 import {FaFacebook, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
 import '../../Styles/Footer.css'
 import { Link } from 'react-router-dom'
@@ -50,7 +50,7 @@ export default function Footer() {
         <p>Subscribe to our newletter</p>
         <div className="newletter">
           <input type="email" placeholder='Enter mail' />
-          <span><FiSend /></span>
+          <span><FaPaperPlane /></span>
         </div>
         </Col>
       </Row>
